@@ -64,5 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apidoor is a company surfaced via the API Evangelist harvest backlog (source: manual) and added to the network as a stub for full-pipeline profiling.
-- https://apidoor.io/
+Apidoor is an API gateway and monetization platform for developers who sell APIs, operated by DevWorx Consulting LLC (United States). Sellers connect an existing public HTTPS API as an upstream protected by a verification secret, get a project-specific gateway URL (yourproject.apdr.io), issue customer API keys with per-key monthly quotas and per-minute limits, and review usage analytics, failures and latency with CSV export. Starter and Pro plans add monthly API subscriptions and a customer portal with 0% Apidoor sales commission, plus browser origin controls, signed limit webhooks, route rules and verified custom gateway domains.
+
+**Areas:** Company · API Gateway · API Monetization · API Keys · Rate Limiting · Usage Analytics · API Subscriptions · Billing
+
+## Apidoor on APIs.io
+
+Everything profiled for Apidoor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apidoor/](https://apis.io/providers/apidoor/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Apidoor Gateway](https://apis.io/apis/apidoor/apidoor-gateway/) — Project-specific HTTPS gateway that Apidoor runs in front of a seller's existing upstream API. Customers call https://{slug}.apdr.io (or a verified custom…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apidoor Authentication](https://apis.io/security/apidoor/apidoor-authentication/)
+- [Apidoor Domain Security](https://apis.io/security/apidoor/apidoor-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Apidoor Plans Pricing](https://apis.io/plans/apidoor/apidoor-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Apidoor Rate Limits](https://apis.io/rate-limits/apidoor/apidoor-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://apidoor.io/)
+- [Documentation](https://docs.apidoor.io/)
+- [Getting started](https://docs.apidoor.io/docs/quickstart)
+- [Pricing](https://docs.apidoor.io/docs/plans-and-billing)
+- [Sign up](https://app.apidoor.io/sign-up)
+- [Support](https://docs.apidoor.io/docs/troubleshooting)
+- [Terms of service](https://apidoor.io/terms)
+- [Status](https://apidoor.instatus.com/)
+
+## API Evangelist rating
+
+**Kin Score 35.3** — thin · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 1.7 |
+| Contract governance | 4.5 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 65.8 |
+
+**Agent readiness 7.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apidoor/](https://apis.io/providers/apidoor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apidoor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apidoor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
